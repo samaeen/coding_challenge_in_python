@@ -8,6 +8,7 @@ with open('afinn111.json') as f:
     data = json.load(f)
 
 words=re.split(r'[.,?\s]+', text)
+#words = re.findall(r'\w+', text)
 
 print(int(data['prison'])+int(data['sad']))
 sentiment=0
