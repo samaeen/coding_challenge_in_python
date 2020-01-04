@@ -2,7 +2,7 @@ import wikipediaapi
 import re
 
 wiki_wiki = wikipediaapi.Wikipedia('en')
-search='bangladesh'
+search='Bangladesh'
 page = wiki_wiki.page(search)
 
 
